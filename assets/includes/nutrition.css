@@ -43,3 +43,22 @@
     font-weight: 700;
     padding-left: 2rem;
 }
+
+@media (max-width: 50rem) {
+    .nutrition {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .nutrition__title {
+        font-size: 1.8rem;
+    }
+
+    .nutrition__text {
+        font-size: 1rem;
+    }
+
+    .nutrition__table td {
+        font-size: 0.8rem;
+    }
+}

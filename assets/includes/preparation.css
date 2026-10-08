@@ -25,3 +25,18 @@
 .preparation__list li {
     margin-bottom: 0.5rem;
 }
+
+@media (max-width: 50rem) {
+    .preparation {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .preparation__title {
+        font-size: 1.8rem;
+    }
+
+    .preparation__list {
+        font-size: 1rem;
+    }
+}

@@ -22,3 +22,18 @@
 .instructions__list li {
     margin-bottom: 0.5rem;
 }
+
+@media (max-width: 50rem) {
+    .instructions {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .instructions__title {
+        font-size: 1.8rem;
+    }
+
+    .instructions__list {
+        font-size: 1rem;
+    }
+}

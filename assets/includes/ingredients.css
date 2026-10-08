@@ -24,3 +24,18 @@
 .ingredients__list li {
     margin-bottom: 0.5rem;
 }
+
+@media (max-width: 50rem) {
+    .ingredients {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .ingredients__title {
+        font-size: 1.8rem;
+    }
+
+    .ingredients__list {
+        font-size: 1rem;
+    }
+}

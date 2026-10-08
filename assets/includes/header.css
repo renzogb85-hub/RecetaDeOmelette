@@ -11,7 +11,7 @@
 
 .header__title {
     font-family: "Young-Serif", serif;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-top: 10px;
     font-weight: 1 00;
 }
@@ -21,4 +21,19 @@
     font-size: var(--font-text);
     color: var(--color-font-text);
     margin-top: 10px;
+}
+
+@media (max-width: 50rem) {
+    .header {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .header__title {
+        font-size: 2rem;
+    }
+
+    .header__text {
+        font-size: 1rem;
+    }
 }
