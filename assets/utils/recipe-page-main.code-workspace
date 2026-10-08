@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../Proyectos/pintureria r"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "recipe-page-main"
+	}
+}

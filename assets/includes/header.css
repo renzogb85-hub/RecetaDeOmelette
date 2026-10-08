@@ -1,0 +1,24 @@
+.header {
+    width: 75rem;
+    padding: 1.3rem;
+}
+
+.header__image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.header__title {
+    font-family: "Young-Serif", serif;
+    font-size: 4rem;
+    margin-top: 10px;
+    font-weight: 1 00;
+}
+
+.header__text {
+    font-family: "Outfit", sans-serif;
+    font-size: var(--font-text);
+    color: var(--color-font-text);
+    margin-top: 10px;
+}

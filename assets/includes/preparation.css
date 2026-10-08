@@ -1,0 +1,27 @@
+.preparation {
+    width: 75rem;
+    height: 15rem;
+    padding: 2rem;
+    background-color: var(--color-preparation);
+    border-radius: 2rem;
+}
+
+.preparation__title {
+    font-family: "Outfit", sans-serif;
+    color: var(--color-preparation-font);
+    font-size: var(--font-title);
+    margin-bottom: 1rem;
+}
+
+.preparation__list {
+    font-family: "Outfit", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
+    color: var(--color-font-text);
+}
+
+.preparation__list li {
+    margin-bottom: 0.5rem;
+}
